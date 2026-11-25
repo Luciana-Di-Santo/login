@@ -1,0 +1,19 @@
+{
+  "name": "proyecto-login",
+  "version": "1.0.0",
+  "description": "Sistema login y registro con Node.js y MySQL",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "Hernan",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "cors": "^2.8.5",
+    "dotenv": "^18.0.10",
+    "express": "^4.19.2",
+    "mysql2": "^3.11.0",
+    "pg": "^8.23.1"
+  }
+}

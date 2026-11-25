@@ -1,0 +1,22 @@
+# Dependencias
+node_modules/
+
+# Variables de entorno (nunca versionar secretos)
+.env
+.env.*
+!.env.example
+
+# Logs y temporales
+*.log
+npm-debug.log*
+pnpm-debug.log*
+
+# Documentos de auditoria local
+AUDITORIA_PROYECTO_IA.md
+
+# Sistema operativo y editor
+.DS_Store
+Thumbs.db
+.vscode/*
+!.vscode/extensions.json
+

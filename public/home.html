@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CRUD Productos</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+<div class="container">
+    <h1>CRUD Productos PC</h1>
+    <form id="productForm">
+        <input type="hidden" id="productId">
+        <input type="text" id="nombre" placeholder="Nombre producto" required>
+        <input type="text"
+        id="categoria"
+        placeholder="Categoría"
+        required>
+        <input type="number"
+        id="precio"
+        placeholder="Precio"
+        required>
+        <input type="number"
+        id="stock"
+        placeholder="Stock"
+        required>
+        <textarea
+        id="descripcion"
+        placeholder="Descripción"></textarea>
+        <button type="submit">
+            Guardar Producto
+        </button>
+    </form>
+    <table>
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Nombre</th>
+                <th>Categoría</th>
+                <th>Precio</th>
+                <th>Stock</th>
+                <th>Acciones</th>
+            </tr>
+        </thead>
+        <tbody id="tablaProductos">
+        </tbody>
+    </table>
+</div>
+<script src="./js/productos.js"></script>
+</body>
+</html>
